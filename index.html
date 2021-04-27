@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tailwind.css">
+
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="h-screen" style="font-family: 'Roboto', sans-serif;">
+  <div class="p-8 max-w-6xl mx-auto bg-gray-50 rounded-lg lg:p-32">
+    <div class="grid grid-cols-1 rounded-lg overflow-hidden md:grid-cols-3">
+      <div class="p-12 grid gap-8 text-white bg-yellow-600">
+        <div>
+          <img src="./images/icon-sedans.svg" alt="sedans">
+        </div>
+        <div class="text-2xl text-gray-100 font-bold">SEDANS</div>
+        <div class="text-gray-100 text-sm md:h-32">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising
+          in the city
+          or on your next road trip.</div>
+        <div class="mt-8">
+          <button
+            class="whitespace-nowrap bg-white text-yellow-600 transition duration-300 border-2 border-transparent hover:border-white hover:text-white hover:bg-yellow-600 px-8 py-2 rounded-full">Learn
+            More</button>
+        </div>
+      </div>
+      <div class="p-12 grid gap-8 text-white bg-green-600">
+        <div>
+          <img src="./images/icon-suvs.svg" alt="suvs">
+        </div>
+        <div class="text-2xl text-gray-100 font-bold">SUVS</div>
+        <div class="text-gray-100 text-sm md:h-32">Take an SUV for its spacious interior, power, and versatility. Perfect for your next
+          family vacation
+          and off-road adventures.</div>
+        <div class="mt-8">
+          <button
+            class="whitespace-nowrap bg-white text-green-600 transition duration-300 border-2 border-transparent hover:border-white hover:text-white hover:bg-green-600 px-8 py-2 rounded-full">Learn
+            More</button>
+        </div>
+      </div>
+      <div class="p-12 grid gap-8 text-white bg-green-900">
+        <div>
+          <img src="./images/icon-luxury.svg" alt="luxury">
+        </div>
+        <div class="text-2xl text-gray-100 font-bold">LUXURY</div>
+        <div class="text-gray-100 text-sm md:h-32">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort
+          of a luxury
+          rental and arrive in style.</div>
+        <div class="mt-8">
+          <button
+            class="whitespace-nowrap bg-white text-green-900 transition duration-300 border-2 border-transparent hover:border-white hover:text-white hover:bg-green-900 px-8 py-2 rounded-full">Learn
+            More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Tuan Ngo</a>.
+  </div>
+</body>
+
+</html>
